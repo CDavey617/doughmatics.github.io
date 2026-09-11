@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doughmatics — Support</title>
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+<style>
+  :root {
+    --bg: #F4F3F1;
+    --surface: #FFFFFF;
+    --ink: #15161A;
+    --muted: #5C5D61;
+    --faint: #8A8B8F;
+    --line: rgba(20,21,25,0.10);
+    --accent: #B5742E;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: "Manrope", system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 740px; margin: 0 auto; padding: 80px 28px 120px; }
+
+  .brand { display: flex; align-items: center; gap: 13px; margin-bottom: 56px; }
+  .brand .mark {
+    width: 46px; height: 46px; border-radius: 13px; overflow: hidden;
+    flex: none; box-shadow: 0 1px 2px rgba(20,21,25,0.12);
+  }
+  .brand .mark img { width: 100%; height: 100%; display: block; }
+  .brand .name { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 20px; letter-spacing: -0.01em; }
+
+  .kicker {
+    font-family: "Space Grotesk", monospace; font-size: 12px; letter-spacing: 0.22em;
+    text-transform: uppercase; color: var(--accent); margin-bottom: 16px;
+  }
+  h1 {
+    font-family: "Space Grotesk", sans-serif; font-weight: 700;
+    font-size: 44px; line-height: 1.05; letter-spacing: -0.025em;
+  }
+  .sub { margin-top: 18px; color: var(--muted); font-size: 16px; max-width: 52ch; }
+
+  .tldr {
+    margin-top: 36px; background: var(--surface); border: 1px solid var(--line);
+    border-radius: 18px; padding: 24px 26px;
+    display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap;
+  }
+  .tldr .lab { font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: 13px;
+    letter-spacing: .04em; color: var(--accent); margin-bottom: 8px; }
+  .tldr p { font-size: 16px; color: var(--ink); margin: 0; }
+  .btn {
+    font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: 14px;
+    color: var(--bg); background: var(--ink); padding: 12px 20px; border-radius: 100px;
+    text-decoration: none; border: none; white-space: nowrap; flex: none;
+  }
+  .btn:hover { background: var(--accent); }
+
+  h2 {
+    font-family: "Space Grotesk", sans-serif; font-weight: 600;
+    font-size: 21px; letter-spacing: -0.01em;
+    margin: 44px 0 12px;
+  }
+  h2 .num { color: var(--accent); margin-right: 10px; font-size: 15px; vertical-align: middle; }
+  p { margin-bottom: 14px; color: var(--muted); font-size: 16px; }
+  p strong { color: var(--ink); font-weight: 600; }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(181,116,46,0.35); }
+  a:hover { border-bottom-color: var(--accent); }
+
+  footer { margin-top: 64px; padding-top: 26px; border-top: 1px solid var(--line);
+    color: var(--faint); font-size: 13.5px; display: flex; justify-content: space-between;
+    flex-wrap: wrap; gap: 8px 20px; }
+</style>
+</head>
+<body>
+
+  <div class="wrap">
+    <div class="brand">
+      <div class="mark"><img src="icon.png" alt="" width="46" height="46"></div>
+      <div class="name">Doughmatics</div>
+    </div>
+
+    <div class="kicker">Legal &amp; Support</div>
+    <h1>Support</h1>
+    <p class="sub">Questions about how Doughmatics works, a bug you've hit, or something you wish it did — here's how to find an answer, or reach a person.</p>
+
+    <div class="tldr">
+      <div>
+        <div class="lab">Fastest way to reach us</div>
+        <p>Email and we'll get back to you, usually within a day or two.</p>
+      </div>
+      <a class="btn" href="mailto:craig-davey96@outlook.com">Email support</a>
+    </div>
+
+    <h2><span class="num">01</span>Where are my recipes stored?</h2>
+    <p>On your device, always. Turn on <strong>iCloud Backup</strong> in Settings if you want them synced across your own devices — see the <a href="index.html">Privacy Policy</a> for exactly how that works.</p>
+
+    <h2><span class="num">02</span>How do I save a dough I've calculated?</h2>
+    <p>Work out a recipe on the <strong>Calculator</strong> tab, tap <strong>Save Dough</strong>, and give it a name — Doughmatics suggests one for you based on the dough type and size. It'll appear on the <strong>Doughs</strong> tab straight away.</p>
+
+    <h2><span class="num">03</span>What dough types and methods are supported?</h2>
+    <p>Neapolitan pizza, New York pizza, sourdough, focaccia, ciabatta, baguette, sandwich and wholemeal bread, plus a custom option — each calculated with direct, poolish, biga or sourdough fermentation.</p>
+
+    <h2><span class="num">04</span>How does Auto Leaven work?</h2>
+    <p>With it on, Doughmatics sizes your yeast or starter percentage automatically from your bulk proof time and temperature, so a same-day dough and a slow cold-proofed one don't need separate calculations. Turn it off on a recipe to set yeast or starter by hand instead.</p>
+
+    <h2><span class="num">05</span>Can I add notes to a recipe?</h2>
+    <p>Yes — open a saved recipe, tap <strong>Edit</strong>, and there's a Notes field for anything worth remembering: how the bake actually went, a tweak for next time, which flour you used.</p>
+
+    <h2><span class="num">06</span>Can I switch between grams and ounces?</h2>
+    <p><strong>Settings → Units.</strong> Every weight in the app updates to match, everywhere.</p>
+
+    <h2><span class="num">07</span>How do I delete a recipe, or all my data?</h2>
+    <p>Open a recipe and use <strong>Delete Dough Recipe</strong> to remove just that one. To clear everything Doughmatics has ever stored, delete the app — since nothing lives anywhere except your device (and optionally your own iCloud), that's the whole cleanup.</p>
+
+    <h2><span class="num">08</span>Something's not working, or you've got an idea</h2>
+    <p>We want to hear about it either way — <a href="mailto:craig-davey96@outlook.com">email us</a>. For a bug, it helps to say what you tapped and what you expected to happen instead.</p>
+
+    <footer>
+      <span>© <span id="year">2026</span> Craig Edward Davey · Doughmatics</span>
+      <span><a href="index.html">Privacy Policy</a></span>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body></html>
